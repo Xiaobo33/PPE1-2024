@@ -1,0 +1,12 @@
+#Commande de 09/10/2024
+##Pour corriger les erreurs en git : 
+git reset : Réinitialise à un état précédent, supprime potentiellement des commits ou des modifications. (fonctionne sur des commits entiers mais pas sur des fichiers spécifiques)/n
+git reset HEAD~ : Revient à dernière la version du dépôt et annule la mise-en-place./n
+git reset --soft HEAD~ : Revient à dernière la version du dépôt et mais n'annule la mise-en-place./n
+git reset --hard : Revient à la version HEAD et perde tous les changements./n
+git reset <commit>/n
+
+-----
+
+git revert :  Crée un commit inversé pour annuler les effets d'un commit précédent./n
+git stash : Sauvegarde temporairement les modifications locales sans les commettre./n

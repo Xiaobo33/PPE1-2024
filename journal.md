@@ -10,3 +10,5 @@ git push : pousser les commits vers le dépôt distant
 git commit : enregistre les modifications dans le dépôt local
 
 séance3
+
+Cette ligne doit rester après correction 

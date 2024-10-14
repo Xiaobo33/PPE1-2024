@@ -1,3 +1,5 @@
+oiancdlaaasde
+
 #Journal de bord du projet encadré
 ## Le travail de la semaine 2 : 
 J'ai créé un fichier dans mon github et le copié dans ma machine locale, et puis édité le fichier de github.

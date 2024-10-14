@@ -1,5 +1,3 @@
-oiancdlaaasde
-
 #Journal de bord du projet encadré
 ## Semaine 1
 Évaluation : 

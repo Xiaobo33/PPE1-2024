@@ -53,8 +53,6 @@ git push : pousser les commits vers le dépôt distant
 
 git commit : enregistre les modifications dans le dépôt local
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 ## Semaine 3 : 
 
 J'ai d'abord appris à compter le nombre d'annotations dans des fichiers .ann pour chaque année (2016, 2017, 2018) et à écrire ces résultats dans un fichier comptes.txt de github. Pour ce faire, j'ai utilisé des commandes comme grep et wc pour rechercher et compter les lignes contenant des annotations spécifiques.

@@ -7,3 +7,4 @@ git status : pour savoir l'état actuel du dépôt de Git
 git push : pousser les commits vers le dépôt distant
 git commit : enregistre les modifications dans le dépôt local
 
+séance3

@@ -1,5 +1,3 @@
-oiancdlaaasde
-
 #Journal de bord du projet encadré
 ## Semaine 1
 Évaluation : 
@@ -65,12 +63,5 @@ Ce qui est difficile pour moi c'est la troisème exercice, pour chaque année, j
 
 grep "Location" *.ann | awk '{print $NF}' | sort | uniq -c | sort -nr | head -n 15 > ~/PPE1-2024/Exercices/classement_2018.txt
 
-séance3
 
 Cette ligne doit rester après correction 
-
-error
-ssssjfbejw
-trop dur
-
-correction

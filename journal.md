@@ -66,3 +66,5 @@ grep "Location" *.ann | awk '{print $NF}' | sort | uniq -c | sort -nr | head -n 
 séance3
 
 Cette ligne doit rester après correction 
+
+exercice git : correction erreurs

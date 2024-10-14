@@ -1,3 +1,5 @@
+oiancdlaaasde
+
 #Journal de bord du projet encadré
 ## Semaine 1
 Évaluation : 
@@ -67,4 +69,8 @@ séance3
 
 Cette ligne doit rester après correction 
 
-exercice git : correction erreurs
+error
+ssssjfbejw
+trop dur
+
+correction

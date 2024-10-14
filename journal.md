@@ -62,3 +62,5 @@ Ensuite, j'ai recherché et compté les annotations spécifiques des Locations. 
 Ce qui est difficile pour moi c'est la troisème exercice, pour chaque année, j'ai extrait les 15 lieux les plus fréquemment mentionnés en comptant et triant les occurrences de chaque lieu. J'ai demandé à chatgpt pour m'enseigner les commandes que je savais pas, voici un exemple dans mon exercice: 
 
 grep "Location" *.ann | awk '{print $NF}' | sort | uniq -c | sort -nr | head -n 15 > ~/PPE1-2024/Exercices/classement_2018.txt
+
+#Séance3

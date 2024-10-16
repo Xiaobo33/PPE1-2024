@@ -65,3 +65,62 @@ grep "Location" *.ann | awk '{print $NF}' | sort | uniq -c | sort -nr | head -n 
 
 
 Cette ligne doit rester après correction 
+
+## Semaine 4 :
+
+### Cette semaine on d'abord corriger les exercices de la semaine dernière, voici les notes pour l'ex : 
+
+grep "Location" *.ann | awk '{print $NF}' | sort | uniq -c | sort -nr | head -n 15 > ~/PPE1-2024/Exercices/classement_2018.txt
+unic -c fusionner les résultats identiques et montrer le nombre d'occurrences
+sort -nr trier les résultats en ordre décroissant (croissant : sort -n)
+tail -n 15 ignorer tous ces que précédé
+pour trier les résultats dans le mois mars : *????_03_??-???*.ann
+
+si on push un mauvais fichier en ligne dans github : par ex. oups.md
+git rm oups.md
+git commit -m “retirer oups.md” et push
+git fetch pour récupérer l'état de ligne 
+git stash conserver les travaux temporairement 
+
+### Et puis on a aussi des nouvelles choses à faire : script
+
+L'explication de script dans le diapos : 
+
+Pour vérifier la valide d'un URL
+
+Dans l'environnement bash : 
+
+#!/usr/bin/bash
+
+Verification des arguments :
+
+if [ $# -ne 1 ]; then
+    echo "Ce programme demande un argument"
+    exit
+fi
+
+Définir les variables : 
+
+FICHIER_URLS=$1
+OK=0
+NOK=0
+
+Boucle de lecture : 
+(si c commence pas ~^http?://)
+while read -r LINE; do
+    echo "La ligne : $LINE"
+    if [[ $LINE =~ ^https?:// ]]; then
+        echo "Ressemble à une URL valide"
+        OK=$((OK + 1))
+    else
+        echo "Ne ressemble pas à une URL valide"
+        NOK=$((NOK + 1))
+    fi
+done < "$FICHIER_URLS"
+
+L'affichage de nombre totale de ligne ok et pas ok : 
+
+echo "$OK URLs et $NOK lignes douteuses"
+
+####################################
+Selon Chatgpt, ^ dans ^http?:// représente le début de la ligne. Il indique que la correspondance doit commencer à partir du début de la chaîne. Les autres sont les expressions réguilières.

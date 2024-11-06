@@ -1,4 +1,4 @@
-#Journal de bord du projet encadré
+# Journal de bord du projet encadré
 ## Semaine 1
 Évaluation : 
 40% travail individuel

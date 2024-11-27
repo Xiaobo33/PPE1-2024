@@ -131,15 +131,15 @@ Cette semaine, on commence à recuperer les pages.
 
 Voici une structure simple pour html : 
 
-<html>
-<head>
-<title>Vous Etes Perdu ?</title>
-</head>
-<body>
-<h1>Perdu sur l’Internet ?</h1>
-<h2>Pas de panique, on va vous aider</h2>
-</body>
-</html>
+html
+head
+title /title
+/head
+body
+h1Perdu sur l’Internet ?/h1
+h2Pas de panique, on va vous aider/h2
+/body
+/html
 
 Et puis on a aussi vu Lynx, qui permet de récupérer et afficher dans le terminal (sans navigation) une page web avec uniquement du texte et des liens.
 
@@ -158,7 +158,7 @@ J'ai créé un fichier pour le miniprojet, qui contient les programmes, les tabl
 
 ## Semaine 7 :
 
-Cette semaine on a revu le html, plus precisement c'est <balise>, sauf les balises basiques qu'on a vu qu'il y a deux semaines, on apprend les balises pour créér un tableau : <table></table>, <tr></tr>, <th></th>, <td></td>. En utilisant ces balises, on peut créer un tableau avec des titres et des données. J'ai donc créé un tableau basé sur les urls que j'ai récupérées précédemment.
+Cette semaine on a revu le html, plus precisement c'est balise, sauf les balises basiques qu'on a vu qu'il y a deux semaines, on apprend les balises pour créér un tableau : table /table, tr/tr, th/th, td/td. En utilisant ces balises, on peut créer un tableau avec des titres et des données. J'ai donc créé un tableau basé sur les urls que j'ai récupérées précédemment.
 
 ## Semaine 8 :
 
@@ -168,18 +168,13 @@ Pour créér un site web de mon github, il faut aller dans le settings, puis dan
 
 Ensuite, pour ameliorer le site web, j'ai appris à utiliser des balises pour mettre en forme le texte :
 
-• <h1> pour de créer des titres de niveau 1, qui doivent être les plus importants 
-• <p> pour de créer des paragraphes, où doit aller la majorité du texte 
-• <b> pour du texte gras
-• <i> pour du texte italique
-• <em> et <strong> pour l’emphase
-• <class> pour regrouper des éléments HTML
-• <ul> et <ol> pour créer des listes
-Et chaque type de liste attend une séquences d’éléments <li>.
-<ul>
-<li>élément 1</li>
-<li>élément B</li>
-</ul>
+• h1 pour de créer des titres de niveau 1, qui doivent être les plus importants 
+• p pour de créer des paragraphes, où doit aller la majorité du texte 
+• b pour du texte gras
+• i pour du texte italique
+• em et strong pour l’emphase
+• class pour regrouper des éléments HTML
+• ul et ol pour créer des listes
 
 Mais, il existe un autre fonction plus pratique pour créer des pages : CSS
 
@@ -187,7 +182,7 @@ Le CSS permet de modifier les éléments de style d’une page HTML.
 
 Il y a trois façon d’insérer du CSS pour modifier le style :
 • directement dans une balise
-• dans <head> de HTML
+• dans head de HTML
 • dans un fichier fichier.css
 
 Bulma CSS : https://bulma.io/documentation/
